@@ -73,7 +73,7 @@ You can customize the training process through the following parameters:
 
 ## Evaluation
 
-Evaluate the model's performance on the validation set:
+We evaluated the ASCF-RTDETR model on multiple public datasets to demonstrate its generalization capability and robust performance across different cell imaging contexts:
 
 ```bash
 python val.py --weights runs/train/exp/weights/best.pt --data data.yaml --img-size 640
@@ -88,3 +88,5 @@ We trained the ASCF-RTDETR model on our self-constructed multichannel fluorescen
 2. **2018 Data Science Bowl (DSB2018) Dataset**  
    Source: Goodman, A., Carpenter, A., Park, E., et al., Kaggle (2018)  
    Link: https://kaggle.com/competitions/data-science-bowl-2018
+
+The model demonstrated strong generalization ability on these diverse public datasets, confirming its effectiveness in handling various cell morphologies, staining patterns, and imaging conditions. This cross-dataset validation highlights the model's potential for broad application in biomedical image analysis and clinical diagnostics without requiring extensive dataset-specific retraining.
