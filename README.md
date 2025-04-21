@@ -38,7 +38,6 @@ Supports various common dataset formats, including COCO, VOC, and YOLO format.
 
 Example dataset organization structure:
 ```
-
 detect/
 
 └── datasets/
@@ -56,7 +55,6 @@ detect/
 │ ├── images/
 
 │ └── labels/
-
 ```
 
 ## Training
