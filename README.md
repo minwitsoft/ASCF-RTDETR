@@ -4,10 +4,8 @@ This is the official implementation of the "ASCF-RTDETR (Adaptive Scale Collabor
 
 ## Model Features
 
-- Innovative hybrid encoder architecture, combining the advantages of CNN and Transformer
-- Deformable attention mechanism, improving the efficiency and accuracy of feature extraction
-- IoU-aware query selection strategy, optimizing the detection process
-- Real-time inference capability, suitable for various practical application scenarios
+- Superior Performance: Achieves 93.5% mAP50 and 90.7% F1-score with nearly 50% reduced computational cost compared to baseline models
+- Strong Generalization: Demonstrates excellent performance across multiple public datasets for automated epithelial cell detection
 
 ## Environment Requirements
 
