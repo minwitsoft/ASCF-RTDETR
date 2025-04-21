@@ -37,6 +37,7 @@ pip install -r requirements.txt
 Supports various common dataset formats, including COCO, VOC, and YOLO format.
 
 Example dataset organization structure:
+```
 
 detect/
 
@@ -55,6 +56,8 @@ detect/
 │ ├── images/
 
 │ └── labels/
+
+```
 
 ## Training
 
