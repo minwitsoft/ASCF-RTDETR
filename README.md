@@ -90,9 +90,11 @@ We trained the ASCF-RTDETR model on our self-constructed multichannel fluorescen
    Source: Goodman, A., Carpenter, A., Park, E., et al., Kaggle (2018)  
    Link: https://kaggle.com/competitions/data-science-bowl-2018
 
-3. **BBBC039 (Nuclei of U2OS cells) Dataset**
-   Source: Broad Bioimage Benchmark Collection, Ljosa et al. (2012)
+3. **BBBC039 (Nuclei of U2OS cells) Dataset**  
+   Source: Broad Bioimage Benchmark Collection, Ljosa et al. (2012)  
    Link: https://bbbc.broadinstitute.org/BBBC039
 
+
 The model demonstrated strong generalization ability on these diverse public datasets, confirming its effectiveness in handling various cell morphologies, staining patterns, and imaging conditions. This cross-dataset validation highlights the model's potential for broad application in biomedical image analysis and clinical diagnostics without requiring extensive dataset-specific retraining.
+
 
