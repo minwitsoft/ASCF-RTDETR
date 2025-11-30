@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def avg_performance(mbfai, bccd, dsb):
+def avg_performance(mbemf, bccd, dsb):
     return (mbfai + bccd + dsb) / 3
 
 
